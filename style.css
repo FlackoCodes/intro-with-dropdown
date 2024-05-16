@@ -76,6 +76,15 @@ header{
     border-radius: 5px;
 }
 
+.__hra{
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    margin-bottom: 10px;
+    color: hsl(0, 0%, 41%);
+}
+
+
 ul>li{
     padding: .3rem 0;
     color: hsl(0, 0%, 41%);
@@ -92,6 +101,11 @@ ul>li{
     padding: .3rem 0;
 }
 
+.sub-feat li:nth-child(1){
+    background-image: url(./images/icon-todo.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
 
 section .outro{
     text-align: center;
