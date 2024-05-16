@@ -22,23 +22,76 @@ p{
 a{
     text-decoration: none;
     cursor: pointer;
+    color: hsl(0, 0%, 41%);
 }
 
 li{
     list-style-type: none;
 }
 
-header{
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
 img{
     max-width: 100%;
 }
+
+.nav-list-items-desktop{
+    display: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem;
+    position: relative;
+}
+
+.nav-list-items-mobile{
+    display: none;
+    position: relative;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 65%;
+    padding: 2rem 2rem 0 2rem;
+    z-index: 999;
+    background: white;
+}
+
+.close-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+.register li{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.register ul>li:nth-child(2){
+    border: 1.5px solid hsl(0, 0%, 41%);
+    padding: .4rem .8rem;
+    border-radius: 5px;
+}
+
+ul>li{
+    padding: .3rem 0;
+    color: hsl(0, 0%, 41%);
+}
+
+
+.sub-feat, .sub-comp{
+    margin-left: 10px;
+    padding: .5rem 0;
+    display: none;
+}
+
+.sub-feat >li, .sub-comp>li{
+    padding: .3rem 0;
+}
+
 
 section .outro{
     text-align: center;
@@ -77,27 +130,6 @@ section .outro p{
     margin-bottom: 3rem;
 }
 
-.nav-list-desktop{
-    display: none;
-}
-
-.nav-list-mobile{
-    position: relative;
-    padding: 1.5rem;
-    background-color: white;
-    width: 70%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0; 
-    z-index: 99999;
-    background-color: hsl(0, 0%, 98%);
-}
-
-.nav-list-mobile .register{
-    text-align: center;
-    color: hsl(0, 0%, 41%);
-}
 
 .feat ul{
     margin-top: 20px;
@@ -108,27 +140,12 @@ section .outro p{
     color: hsl(0, 0%, 41%);
 }
 
-.register ul{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: .8rem;
-}
-
-.register ul>li:nth-child(2){
-    border: 1.5px solid hsl(0, 0%, 41%);
-    padding: .4rem .8rem;
-    border-radius: 5px;
-}
-
-.close-btn{
-    position: absolute;
-    top: 0;
-    right: 0;
-    /* padding: 1rem; */
-}
 
 .icon{
     display: flex;
     align-items: center;
 }
+
+.active-nav-menu {
+    display: block;
+    }   

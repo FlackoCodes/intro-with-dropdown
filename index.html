@@ -11,67 +11,63 @@
 
   
 </head>
-<body>
-  <header>
+  <body>
+    <header>
       <div>
         <img src="/images/logo.svg" alt="logo">
       </div>
-      <div class="nav-list-desktop">
-        <div>
+        <nav class="nav-list-items-desktop">
+          <div class="about">
+            <ul>
+              <li>Features <img src="/images/icon-arrow-down.svg" alt="icon-arrow-down"></li>
+              <li>Company <img src="/images/icon-arrow-down.svg" alt="icon-arrow-down"></li>
+              <li>Careers</li>
+              <li>About</li>
+            </ul>
+          </div>
+          <div class="register">
+            <ul>
+              <li>Login</li>
+              <li>Register</li>
+            </ul>
+          </div>
+        </nav>
+          <img  class="mobile-btn"  src="/images/icon-menu.svg" alt="mobile-menu">
+    </header>
+    <nav class="nav-list-items-mobile">
+        <img src="/images/icon-close-menu.svg" alt="icon-close-menu" class="close-btn">
+        <div class="about">
           <ul>
-            <li>Features</li>
-            <li>Company</li>
+            <li class="feat">Features <img src="/images/icon-arrow-down.svg" alt="icon-arrow-down"></li>
+            <ul class="sub-feat">
+              <li> <img src="/images/icon-todo.svg" alt="icon-todo">Todo List</li>
+              <li> <img src="/images/icon-calendar.svg" alt="icon-calendar">Calender</li>
+              <li> <img src="/images/icon-reminders.svg" alt="icon-reminders">Reminders</li>
+              <li> <img src="/images/icon-planning.svg" alt="icon-planning">Planning</li>
+            </ul>
+            <li class="comp">Company <img src="/images/icon-arrow-down.svg" alt="icon-arrow-down"></li>
+            <ul class="sub-comp">
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Planning</li>
+            </ul>
             <li>Careers</li>
             <li>About</li>
           </ul>
         </div>
-        <div>
+        <div class="register">
           <ul>
             <li>Login</li>
             <li>Register</li>
           </ul>
         </div>
-      </div>
-    <img src="/images/icon-menu.svg" alt="mobile-menu">
-  </header>
-  <div class="nav-list-mobile">
-    <div class="feat">
-      <ul>
-          <li>Features <img src="/images/icon-arrow-down.svg" alt="icon-arrow-down"></li>
-          <div class="sub-feat">
-            <ul>
-              <li>Todo List</li>
-              <li>Calenders</li>
-              <li>Reminders</li>
-              <li>Planning</li>
-            </ul>
-          </div>
-          <li>Company  <img src="/images/icon-arrow-down.svg" alt="icon-arrow-down"></li>
-          <div class="sub-comp">
-            <ul>
-              <li>History</li>
-              <li>Our Team</li>
-              <li>Blog</li>
-            </ul>
-          </div>
-          <li>Careers</li>
-          <li>About</li>
-      </ul>
-    </div>
-    <div class="register">
-      <ul>
-        <li>Login</li>
-        <li>Register</li>
-      </ul>
-    </div>
-    <img src="/images/icon-close-menu.svg" alt="icon-close-menu" class="close-btn">
-  </div>
+    </nav>
     <main>
       <div>
         <picture>
           <source
               media="(min-width: 768px)"
-              srcset="/images/mobile-design.jpg"
+              srcset="/images/image-hero-desktop.png"
           />
           <img src="/images/image-hero-mobile.png" alt="hero-image"/>
         </picture>
@@ -93,5 +89,6 @@
         <img src="/images/client-maker.svg" alt="client-maker-logo">
       </div>
     </section>
-</body>
+    <script src="/script.js"></script>
+  </body>
 </html>
