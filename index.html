@@ -33,24 +33,37 @@
           </div>
         </nav>
           <img  class="mobile-btn"  src="/images/icon-menu.svg" alt="mobile-menu">
-    </header>
-    <nav class="nav-list-items-mobile">
+      <nav class="nav-list-items-mobile">
         <img src="/images/icon-close-menu.svg" alt="icon-close-menu" class="close-btn">
         <div class="about">
           <ul>
             <div class="__hra">
               <li class="feat">Features</li>
-              <img src="/images/icon-arrow-down.svg" alt="icon-arrow-down">
+              <img src="/images/icon-arrow-down.svg" alt="icon-arrow-down" class="arrow-down">
+              <img src="/images/icon-arrow-up.svg" alt="icon-arrow-up" class="arrow-up">
             </div>
             <ul class="sub-feat">
-              <li> <!--<img src="/images/icon-todo.svg" alt="icon-todo">-->Todo List</li>
-              <li> <img src="/images/icon-calendar.svg" alt="icon-calendar">Calender</li>
-              <li> <img src="/images/icon-reminders.svg" alt="icon-reminders">Reminders</li>
-              <li> <img src="/images/icon-planning.svg" alt="icon-planning">Planning</li>
+              <div class="__hra">
+                <img src="/images/icon-todo.svg" alt="icon-todo">
+                <li>Todo List</li>
+              </div>
+              <div class="__hra">
+                <img src="/images/icon-calendar.svg" alt="icon-calendar">
+                <li>Calender</li>
+              </div>
+              <div class="__hra">
+                <img src="/images/icon-reminders.svg" alt="icon-reminders">
+                <li>Reminders</li>
+              </div>
+              <div class="__hra">
+                <img src="/images/icon-planning.svg" alt="icon-planning">
+                <li>Planning</li>
+              </div>
             </ul>
             <div class="__hra">
               <li class="comp">Company</li>
-              <img src="/images/icon-arrow-down.svg" alt="icon-arrow-down">
+              <img src="/images/icon-arrow-down.svg" alt="icon-arrow-down" class="arrow-down">
+              <img src="/images/icon-arrow-up.svg" alt="icon-arrow-down" class="arrow-up">
             </div>
             <ul class="sub-comp">
               <li>History</li>
@@ -68,7 +81,9 @@
           </ul>
         </div>
     </nav>
-    <main>
+  </header>
+  <main class="main-content">
+    <section>
       <div>
         <picture>
           <source
@@ -78,16 +93,16 @@
           <img src="/images/image-hero-mobile.png" alt="hero-image"/>
         </picture>
       </div>
-    </main>
-    <section>
-      <div class="outro">
-        <h1>Make remote work</h1>
-        <p>Get your team in sync, no matter your location. Streamline processes,
-          create team rituals, and watch productivity soar.</p>
-      </div>
-      <div class="learn-more"><a href="" >Learn more</a></div>
     </section>
     <section>
+      <div class="outro">
+        <h1>Make <span>remote work</span></h1>
+        <p>Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, <span>and watch productivity soar.</span></p>
+      </div>
+      <div class="learn-more"><a href="" >Learn more</a></div>
+    <!-- </section>
+    <section> -->
       <div class="sponsors">
         <img src="/images/client-databiz.svg" alt="data-biz-logo">
         <img src="/images/client-audiophile.svg" alt="audiophile-logo">
@@ -95,6 +110,7 @@
         <img src="/images/client-maker.svg" alt="client-maker-logo">
       </div>
     </section>
+  </main>
     <script src="/script.js"></script>
   </body>
 </html>
