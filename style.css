@@ -222,9 +222,15 @@ section .outro p{
         display: none;
     }
 
-    /* .nav-list-items-desktop{
-        display: block;
-    } */
+   .nav-list-desktop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .nav-list-desktop img{
+    margin-right: 20px;
+   }
 
     .mobile-btn{
         display: none;

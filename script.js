@@ -31,11 +31,11 @@ function toggleMenu(buttonSelector, menuSelector) {
     button.addEventListener('click', () => {
         menu.classList.toggle('active-nav-menu');
     });
-
 }
 
 toggleMenu('.feat', '.sub-feat');
 toggleMenu('.comp', '.sub-comp');
+
 
 
 const mobileMenuOpen = () =>{
