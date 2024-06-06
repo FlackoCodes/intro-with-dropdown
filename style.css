@@ -34,6 +34,10 @@ img{
     max-width: 100%;
 }
 
+.nav-list-desktop, .nav-list-mobile{
+    display: none;
+}
+/*
 .nav-list-items-desktop{
     display: none;
 }
@@ -48,7 +52,7 @@ header{
 
 .nav-list-items-mobile{
     display: none;
-    /* position: relative; */
+     position: relative; 
     position: fixed;
     top: 0;
     bottom: 0;
@@ -235,4 +239,4 @@ section .outro p{
     .mobile-btn{
         display: none;
     }
-}
+} */

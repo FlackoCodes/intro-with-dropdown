@@ -5,11 +5,68 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
   
 </head>
-  
+  <body>
+    <header>
+      <nav class="nav-list-desktop">
+        <ul class="main-links">
+          <li><img src="/images/logo.svg" alt="logo"></li>
+          <li>Features <i class="fas fa-caret-down"></i></li>
+          <li>Company <i class="fas fa-caret-down"></i></li>
+          <li>careers</li>
+          <li>About</li>
+        </ul>
+        <ul class="register">
+          <li>Login</li>
+          <li>Register</li>
+        </ul>
+      </nav>
+      <div class="h__">
+        <div>
+          <img src="/images/logo.svg" alt="logo" class="logo">
+        </div>
+        <img src="/images/icon-menu.svg" alt="icon-hamburger" class="mobile-open">
+      </div>
+      <div class="nav-list-mobile">
+        <ul class="main-links-mobile">
+          <img src="/images/icon-close-menu.svg" alt="close-btn" class="close-btn">
+          <li>Features <i class="fas fa-caret-down"></i></li>
+          <li>Company <i class="fas fa-caret-down"></i></li>
+          <li>careers</li>
+          <li>About</li>
+        </ul>
+        <ul class="register-mobile">
+          <li>Login</li>
+          <li>Register</li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="col-revers">
+        <picture>
+          <source srcset="/images/image-hero-mobile.png" media="(min-width: 768px)">
+          <img src="/images/image-hero-mobile.png" alt="">
+        </picture>
+      </div>
+      <div>
+        <h1>Make remote work</h1>
+        <p>Get your team in sync, no matter your location. Streamline processes, create
+          team rituals, and watch productivity soar.
+        </p>
+        <button>Learn More</button>
+      </div>
+    </main>
+    <div class="sponsors">
+      <img src="/images/client-databiz.svg" alt="client-databiz">
+      <img src="/images/client-audiophile.svg" alt="client-audiophile">
+      <img src="/images/client-meet.svg" alt="client-meet">
+      <img src="/images/client-maker.svg" alt="client-maker">
+    </div>
+  </body>
 </html>
