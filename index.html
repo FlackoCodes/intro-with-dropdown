@@ -36,8 +36,25 @@
       <div class="nav-list-mobile">
         <ul class="main-links-mobile">
           <img src="/images/icon-close-menu.svg" alt="close-btn" class="close-btn">
-          <li>Features <i class="fas fa-caret-down"></i></li>
-          <li>Company <i class="fas fa-caret-down"></i></li>
+          <li class="feat">Features <i class="fas fa-caret-down"></i>
+            <div class="subs sub-feat">
+                <ul>
+                    <li><img src="/images/icon-todo.svg" alt="icon-todo">Todo List</li>
+                    <li><img src="/images/icon-calendar.svg" alt="icon-calendar">Calender</li>
+                    <li><img src="/images/icon-reminders.svg" alt="icon-reminders">Reminders</li>
+                    <li><img src="/images/icon-planning.svg" alt="icon-planning">Planning</li>
+                </ul>
+            </div>
+        </li>
+          <li class="comp">Company <i class="fas fa-caret-down"></i>
+            <div class="subs sub-comp">
+              <ul>
+                <li>History</li>
+                <li>Our Team</li>
+                <li>Blog</li>
+              </ul>
+            </div>
+          </li>
           <li>careers</li>
           <li>About</li>
         </ul>
@@ -54,12 +71,12 @@
           <img src="/images/image-hero-mobile.png" alt="">
         </picture>
       </div>
-      <div>
+      <div class="content">
         <h1>Make remote work</h1>
         <p>Get your team in sync, no matter your location. Streamline processes, create
           team rituals, and watch productivity soar.
         </p>
-        <button>Learn More</button>
+        <button class="btn">Learn More</button>
       </div>
     </main>
     <div class="sponsors">
@@ -68,5 +85,6 @@
       <img src="/images/client-meet.svg" alt="client-meet">
       <img src="/images/client-maker.svg" alt="client-maker">
     </div>
+    <script src="/script.js"></script>
   </body>
 </html>

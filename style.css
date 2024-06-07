@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 *{
     box-sizing: border-box;
     margin: 0;
@@ -8,6 +7,7 @@
 }
 
 body{
+    font-size: 16px;
     font-family: "Epilogue", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -37,6 +37,120 @@ img{
 .nav-list-desktop, .nav-list-mobile{
     display: none;
 }
+
+.nav-list-mobile{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 70%;
+    padding: 2rem;
+    z-index: 999;
+    background: white;
+}
+
+.nav-list-mobile li{
+    color: hsl(0, 0%, 41%);
+}
+
+.nav-list-mobile li{
+    padding: 0.2rem 0;
+}
+
+.register-mobile{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.register-mobile li:nth-child(2){
+    border: 1.5px solid hsla(0, 0%, 8%, 0.701);
+    border-radius: 5px;
+    padding: 0.3rem 0;
+    margin-bottom: 20px;
+}
+
+.main-links-mobile{
+    margin-top: 20px;
+}
+
+.close-btn{
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.h__{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem;
+}
+
+main{
+    text-align: center;
+}
+
+.content{
+    margin: 20px 0;
+}
+
+.content h1{
+    color: hsl(0, 0%, 8%);
+    padding: 0.5rem 0;
+    font-weight: 700;
+}
+
+.content p{
+    width: 300px;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.content .btn{
+    border: none;
+    border-radius: 8px;
+    padding: .8rem 1.2rem;
+    color: hsl(0, 0%, 100%);
+    font-weight: 900;
+    background-color: hsla(0, 0%, 0%, 0.906);
+    letter-spacing: -1px;
+    margin: 10px 0;
+}
+
+
+.sponsors img{
+    width: 60px;
+}
+
+.sponsors{
+    padding: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.subs li{
+    padding: 0.4rem 0;
+}
+
+.sub-feat li img{
+    width: 12px;
+    margin-right: 10px;
+}
+
+.subs{
+    display: none;
+    margin: 8px 0 8px 8px;
+}
+
+.active-nav-menu {
+    display: block;
+}
+
+
 /*
 .nav-list-items-desktop{
     display: none;
@@ -52,7 +166,7 @@ header{
 
 .nav-list-items-mobile{
     display: none;
-     position: relative; 
+    position: relative; 
     position: fixed;
     top: 0;
     bottom: 0;
@@ -99,11 +213,7 @@ ul>li{
 }
 
 
-.sub-feat, .sub-comp{
-    margin-left: 10px;
-    padding: .5rem 0;
-    display: none;
-}
+
 
 .sub-feat >li, .sub-comp>li{
     padding: .3rem 0;
