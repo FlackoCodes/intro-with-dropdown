@@ -150,6 +150,36 @@ main{
     display: block;
 }
 
+@media screen and (min-width: 768px) {
+    .h__{
+        display: none;
+    }
+
+    .nav-list-desktop{
+        margin-bottom: 50px;
+        padding: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-list-desktop ul{
+        display: flex;
+        align-items: center;
+        gap: 1.2rem;
+    }
+
+    .main-links img{
+        margin-right: 30px;
+    }
+
+    .register li:nth-child(2){
+        border: 1.2px solid hsla(0, 0%, 8%, 0.701);
+        border-radius: 8px;
+        padding: 0.5rem 0.6rem;
+    }
+    
+}
 
 /*
 .nav-list-items-desktop{
