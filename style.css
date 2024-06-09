@@ -141,6 +141,10 @@ main{
     margin-right: 10px;
 }
 
+.sub-feat, .sub-comp{
+    display: none;
+}
+
 .subs{
     display: none;
     margin: 8px 0 8px 8px;

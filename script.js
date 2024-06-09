@@ -18,9 +18,6 @@ function toggleMenu(buttonSelector, menuSelector) {
     });
 }
 
-toggleMenu('.feat', '.sub-feat');
-toggleMenu('.comp', '.sub-comp');
+toggleMenu('.feat-mbl', '.sub-feat');
+toggleMenu('.comp-mbl', '.sub-comp');
 
-document.querySelector('.feat').addEventListener('click', ()=>{
-    console.log('feat clicked');
-})
