@@ -171,6 +171,14 @@ main{
         text-align: start;
     }
 
+    .content h1{
+        font-size: 40px;
+    }
+
+    .content span{
+        display: block;
+    }
+
     main .col-reverse{
         display: flex;
         flex-direction: row-reverse;
